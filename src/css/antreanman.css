@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    
+  }
+  
+  .content {
+    position:sticky;
+    bottom: 0;
+    top:0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    min-height: 100%;;
+   
+  }
+.table{
+    background: rgba(0, 0, 0, 0.5);color: white;
+}
+
+
+
+
+.bg-light-gray {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+
+.bg-sky.box-shadow {
+    box-shadow: 0px 5px 0px 0px #00a2a7
+}
+
+.bg-orange.box-shadow {
+    box-shadow: 0px 5px 0px 0px #af4305
+}
+
+.bg-green.box-shadow {
+    box-shadow: 0px 5px 0px 0px #4ca520
+}
+
+.bg-yellow.box-shadow {
+    box-shadow: 0px 5px 0px 0px #dcbf02
+}
+
+.bg-pink.box-shadow {
+    box-shadow: 0px 5px 0px 0px #e82d8b
+}
+
+.bg-purple.box-shadow {
+    box-shadow: 0px 5px 0px 0px #8343e8
+}
+
+.bg-lightred.box-shadow {
+    box-shadow: 0px 5px 0px 0px #d84213
+}
+
+
+.bg-sky {
+    background-color: #02c2c7
+}
+
+.bg-orange {
+    background-color: #e95601
+}
+
+.bg-green {
+    background-color: #5bbd2a
+}
+
+.bg-yellow {
+    background-color: #f0d001
+}
+
+.bg-pink {
+    background-color: #ff48a4
+}
+
+.bg-purple {
+    background-color: #9d60ff
+}
+
+.bg-lightred {
+    background-color: #ff5722
+}
+
+.padding-15px-lr {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.margin-10px-top {
+    margin-top: 10px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.ana{
+font-family: 'Qahiri', sans-serif;
+font-family: 'Zen Loop', cursive;
+}
+.fas{
+    font-size: 50px;
+}
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+
+
+.success-msg,
+.warning-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+}
+
+.warning-msg {
+    font-size:large;
+  
+}
+
+
+.success-msg {
+    font-size:large;
+}
+
+
+.ad{
+   font-family: 'Gowun Dodum', sans-serif; 
+    font-size: 30px;
+}
+.sml{
+  font-family: 'Gowun Dodum', sans-serif;
+font-family: 'Hahmlet', serif;
+    
+}
+.smxx{
+    font-size: 32px;
+}
+
+.abc{
+    float: right;
+}
+
+.yasal{
+    margin: 40px;
+}
+.yasal2{
+    margin: 40px;
+   
+
+}
+
+
+.lıft{
+    position: absolute;
+    bottom: 60px;
+    left: 130px;
+}
+
+.rep{
+    position: absolute;
+    bottom: 60px;
+    left: 430px;
+}
+
+.myhero{
+    
+ 
+    background-origin: content-box;
+    background-size: cover;
+}
+
+
+p{
+    color: white;
+}
+
