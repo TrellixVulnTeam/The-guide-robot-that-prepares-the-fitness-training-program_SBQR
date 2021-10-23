@@ -5,9 +5,9 @@ import Contro from "./control";
 
 
 class Screen {
-    constructor(){//parametreye gerek yok
+    constructor(){
         
-       this.monday = document.querySelector(".monday");
+ this.monday = document.querySelector(".monday");
  this.Tuesday = document.querySelector(".Tuesday");
  this.Wednesday = document.querySelector(".Wednesday");
  this.Thursday = document.querySelector(".Thursday");
@@ -16,11 +16,10 @@ class Screen {
  this.btn = document.querySelector(".btn");
  this.antrlıstm = document.querySelector(".antrlıstm");
  this.formcont = document.querySelector(".formkont");
-
  this.onerap = document.querySelector(".onerap");
  this.formcont2 = document.querySelector(".formkont2");
-     this.contain = document.querySelector(".container");   
-         this.contxx = document.querySelector(".table-responsive");
+ this.contain = document.querySelector(".container");   
+ this.contxx = document.querySelector(".table-responsive");
  this.checj = document.querySelectorAll(".form-check-input");
 
  this.reps = document.querySelector(".reps");
@@ -36,7 +35,7 @@ this.hak = 0;
 this.setrep = document.querySelectorAll(".yasal2");
  this.ax = document.querySelector(".ax"); 
 
-this.formcont.addEventListener("submit",this.sonuc.bind(this));//bind sız yazarsak formcont verıyor screen clasını vermıyor bind dıyerek screen nesnesıne ulasırız ve ıstedıgımı yapabılrız
+this.formcont.addEventListener("submit",this.sonuc.bind(this));
         
         this.formcont2.addEventListener("submit",this.inforep.bind(this));
        
@@ -84,12 +83,10 @@ this.repcalculatorfonk(objx);
       
              this.bottomwrıte(this.enabledSettings); 
     
-       }.bind(this)) //olay cozuldu yanı bu nesnemı kulan dedım
+       }.bind(this))
        
      
-   }.bind(this))//olay cozuldu yanı bu nesnemı kulan dedım yanı aslında  bu foreach dısında thıs ne benım screen
-   //nesnem
-
+   }.bind(this))
      
         
         
@@ -110,9 +107,9 @@ this.repcalculatorfonk(objx);
   
        plx.forEach(function(val, key){
          
-         this.ekranbas(val);//foreach kadar calıscak fonksıyon
+         this.ekranbas(val);
         
-       }.bind(this)) //gıne hata alırız
+       }.bind(this)) 
     
      this.hakım++;
     
@@ -142,11 +139,9 @@ this.repcalculatorfonk(objx);
     
     this.contxx.appendChild(createtr);
   
- //  ax.textContent += alum;
+ 
     
 }
-    
-    
     
     ınfocreate(mesaj,durum){
     
@@ -173,7 +168,7 @@ typeWriter();
     
     olusbılgı.className = "bilgi";
   
-        //clası ezmemek ıcın classlıstıne add yaprak yenı bır class eklyıoruz
+      
 
       olusbılgı.classList.add(durum ? "success-msg" : "warning-msg" );
    
@@ -183,17 +178,14 @@ typeWriter();
 
        this.tabl= document.querySelector(".table");
     
-    // bır domda bırseyden once vs derken bunuda yapabılrısn
+   
     
 const a =  this.formcont.insertBefore(olusbılgı,this.tabl);
     
-        
-    //      const creatediv = document.createElement("div");
-    // creatediv.classList.add("robotx");
-    //  this.formcont.insertBefore(creatediv,a);
+    
     
    const robot =   document.querySelector(".robotx");
-    //robot.innerHTML = `<img class="p2"  width="20%" height="30%" src="" />`;
+   
     
     if(durum){
         const robotids =   document.querySelector(".p1").src = "./../robot/baasa.png";  
@@ -203,9 +195,9 @@ const a =  this.formcont.insertBefore(olusbılgı,this.tabl);
  
         
           setTimeout(() =>{ 
-     // burda bılgı clasını secelım ıster error ıster basarılı cıksın sılıcek 
+    
          const deletedıv = document.querySelector(".bilgi");
-        // eger gercekten clasında bılgı olan bır kutu varsa sıl dıcez 
+       
          
  
          if(deletedıv){
@@ -253,7 +245,7 @@ typeWriter();
     
     olusbılgı.className = "bilgi";
   
-        //clası ezmemek ıcın classlıstıne add yaprak yenı bır class eklyıoruz
+      
 
       olusbılgı.classList.add(durum ? "success-msg" : "warning-msg" );
    
@@ -263,7 +255,7 @@ typeWriter();
 
          this.xx= document.querySelector(".xx");
     
-    // bır domda bırseyden once vs derken bunuda yapabılrısn
+   
  
   const ab = this.formcont2.insertBefore(olusbılgı,null);
     
@@ -271,9 +263,9 @@ typeWriter();
  
         
           setTimeout(() =>{ 
-     // burda bılgı clasını secelım ıster error ıster basarılı cıksın sılıcek 
+
          const deletedıv = document.querySelector(".bilgi");
-        // eger gercekten clasında bılgı olan bır kutu varsa sıl dıcez 
+    
          
  
       
@@ -320,8 +312,7 @@ typeWriter();
    
     
     olusbılgı.className = "bilgi";
-  
-        //clası ezmemek ıcın classlıstıne add yaprak yenı bır class eklyıoruz
+
 
       olusbılgı.classList.add("warning-msg");
    
@@ -331,22 +322,18 @@ typeWriter();
   
     const tabl= document.querySelector(".table");
     
-    // bır domda bırseyden once vs derken bunuda yapabılrısn
+ 
     
  this.formcont.insertBefore(olusbılgı,tabl);
     
    const robot =   document.querySelector(".robotx");
-  //   robot.innerHTML = `<img class="p1"  width="20%" height="30%" src="" />`;
-    
-    
-  //  const robotids =   document.querySelector(".p1").src = "robot/hello.png";
-   
+  
     
     
      setTimeout(() =>{ 
-     // burda bılgı clasını secelım ıster error ıster basarılı cıksın sılıcek 
+   
          const deletedıv = document.querySelector(".bilgi");
-        // eger gercekten clasında bılgı olan bır kutu varsa sıl dıcez 
+  
          
  
          if(deletedıv){
@@ -367,14 +354,14 @@ typeWriter();
       
   
 }
-   //ıstersen closure tekrar edcegın zman buraya bak bı ınserttoable ıcerıgıne bırşey yapabılrsın belkı 
+
     ınserttotable(valm){
      
  let satir = 6;
 let sutun = 5;
      
         
-      if(this.hak == 0){//ıstersen closure tekrar edcegın zman buraya bak bı
+      if(this.hak == 0){
          
            let m=0;
      for (let a = 0; a < satir; a++) {
@@ -426,7 +413,7 @@ const arraymy = [];
     
 
     
-  //ılkonce 1.satırdakı ılk 5 sutunu degerlendırıp sonra 2.satıra gecer
+
     for(let i = 0 ; i <  this.trlıst.rows.length;i++){
         
         for(let c =0; c<this.trlıst.rows[i].cells.length;c++ ){
@@ -440,23 +427,22 @@ const arraymy = [];
  const namex = new Antname(arraymy);
   
 
-   const ıslem =   Contro.controlval(namex.ad);//bu nesne ıcınde boyle fonksıyon yapmıcam statıc nesne olusturcam
-    
+   const ıslem =   Contro.controlval(namex.ad);
    
     if(ıslem.durum){
        
   const  ıslem2 =  Contro.numbrscontrol(namex.ad);
       
-        if(ıslem2.durum){// demek sayı yok 
+        if(ıslem2.durum){
             
          const ıslem3 =  Contro.corrıvmecontrol(namex.ad);
        
         
-        if(ıslem3.durum){//true donerse bura calsır
+        if(ıslem3.durum){
            
        const ıslem5 =   Contro.kardıocontrol(namex.ad);
             
-            if(ıslem5.durum){ //demek ıstenılen yerde kardıyo yazılmıs
+            if(ıslem5.durum){ 
                 const ıslem6 = Contro.squatcontrol(namex.ad);
                 
                 if(ıslem6.durum){
@@ -558,13 +544,13 @@ const arraymy = [];
     
 
         
-         let myvalxarr = [...this.setrep];//ayrıyetten arraye attım ustunde cozumledım
-      let newarr =  myvalxarr.map(i => i.value); //var olan arraydekı seylerı degıstırıp yenı bır arrayde bana sunar
+         let myvalxarr = [...this.setrep];
+      let newarr =  myvalxarr.map(i => i.value);
  
   const abc =   newarr.every(im => im != "");
 
     
-          if(abc){// false degılse yanı bos degıldır bura calsıır
+          if(abc){
            
               
            
@@ -572,11 +558,11 @@ const arraymy = [];
       
         
         
-            if(newarr[0] == 3 && newarr[2] == 3 ){//3 set saysı olsun
+            if(newarr[0] == 3 && newarr[2] == 3 ){
                
-                 if(newarr[1] == 5){//5 tekrar saysı olsun
+                 if(newarr[1] == 5){
            
-                      if(newarr[3] > 4 && newarr[3] < 11 ){// asıstan ıcın5 
+                      if(newarr[3] > 4 && newarr[3] < 11 ){
                           
                            const  ıslem = {
                  
@@ -643,8 +629,7 @@ const arraymy = [];
 }
     
     
-   
-    
+  
     
     inforep(e){
             e.preventDefault();
@@ -661,14 +646,12 @@ const arraymy = [];
 }
 
 
-  
-
     
 }
 
 
 
-export default function screx(){//dısarı export etım
+export default function screx(){
      new Screen();
 }
 

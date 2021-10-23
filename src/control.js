@@ -31,7 +31,7 @@ export default class Contro {
      }
      
      static numbrscontrol(pam){
-            const ınıt = pam.every(num => isNaN(num)) ; // numara degılse hepsı true doncek eger 1 tane sayı varsa false doncek
+            const ınıt = pam.every(num => isNaN(num)) ; 
        
            
       
